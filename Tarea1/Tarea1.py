@@ -1,5 +1,7 @@
 import graphviz
-
+# Antes de comenzar debemos de ejecutar el siguiente comando en la terminal de python py -m pip install graphviz
+# Luego debemos de instalar el siguiente pluggin: https://www.graphviz.org/download/
+# Por ultimo cerrar todas las terminales y el programa para reiniciar y se ejecuten todos los cambios
 class Nodo:
     def __init__(self,dato):
         self.dato = dato
