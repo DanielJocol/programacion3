@@ -95,7 +95,7 @@ while True:
             try:
                 print("Usted eligio la opción 3")
                 
-                val = input("Ingrese el numero de indice del valor que quiere eliminar: ")
+                val = input("Ingrese el valor que quiere eliminar: ")
                  
             except ValueError as ve:
                 print(f"Ingrese unicamente numeros")
